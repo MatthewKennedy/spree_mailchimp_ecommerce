@@ -31,4 +31,6 @@ module SpreeMailchimpEcommerce
     end
   end
 end
-Spree::Promotion.prepend(SpreeMailchimpEcommerce::Spree::PromotionDecorator)
+
+# Dont use PromotionDecorator
+# Spree::Promotion.prepend(SpreeMailchimpEcommerce::Spree::PromotionDecorator)
